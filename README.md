@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Backend
 
-run `npm start` on the backend folder for server de database with json server
+run `npm start` on the backend folder for server the database with json server
 
 ## Development server
 
