@@ -8,7 +8,13 @@ import { Router } from '@angular/router'
   templateUrl: './product-create.component.html',
   styleUrls: ['./product-create.component.css']
 })
+
 export class ProductCreateComponent implements OnInit {
+
+  product: Product = {
+    name: '',
+    price: null
+  }
 
   constructor(private productService: ProductService, private router: Router) { }
 
@@ -16,7 +22,13 @@ export class ProductCreateComponent implements OnInit {
   }
 
   createProduct(): void {
-    this.productService.showMessage('Produto criado!')
+    // Subscribe notifica quando uma resposta chegar
+    this.productService.create(this.product).subscribe(() => {
+      this.productService.showMessage('Produto criado!')
+      this.router.navigate(['/products'])
+    })
+
+    
   }
 
   /**
