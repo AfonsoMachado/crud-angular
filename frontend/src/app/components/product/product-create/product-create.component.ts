@@ -11,6 +11,7 @@ import { Router } from '@angular/router'
 
 export class ProductCreateComponent implements OnInit {
 
+  // Variavel alterada pelo input na inserção de dados no formulario
   product: Product = {
     name: '',
     price: null
