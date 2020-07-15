@@ -11,7 +11,7 @@
 
 .header .logo {
     max-height: 45px;
-    margin-right: 120px;
+    /* margin-right: 120px; */
 }
 
 .header .title-group {
@@ -20,4 +20,9 @@
 
 .header .title-group i {
     padding-right: 5px;
+}
+
+.adj-logo {
+    margin-left: 62.5px;
+    margin-right: 62.5px;
 }
