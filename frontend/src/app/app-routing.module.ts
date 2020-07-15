@@ -7,8 +7,8 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 // Rotas da aplicação
 const routes: Routes = [
   {
-    path: "",
-    component: HomeComponent,
+    path: "",  // Caminho na url
+    component: HomeComponent,  // Componente a ser invocado com o caminho
   },
   {
     path: "products",

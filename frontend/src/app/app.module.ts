@@ -21,6 +21,7 @@ import { MatCardModule } from "@angular/material/card";
 
 // Diretivas
 import { RedDirective } from './derectives/red.directive';
+import { ForDirective } from './derectives/for.directive';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { RedDirective } from './derectives/red.directive';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    RedDirective
+    RedDirective,
+    ForDirective
   ],
   imports: [
     BrowserModule,
