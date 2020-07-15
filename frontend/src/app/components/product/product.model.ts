@@ -1,6 +1,6 @@
 // Atributos obrigatorios
 export interface Product {
-    id?: number
+    id?: number //opcional
     name: string
     price: number
 }

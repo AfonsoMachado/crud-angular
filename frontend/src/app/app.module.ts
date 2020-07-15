@@ -18,7 +18,8 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatListModule } from '@angular/material/list'
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatCardModule } from "@angular/material/card";
-import { MatButton, MatButtonModule } from "@angular/material/button";
+import { MatButtonModule } from "@angular/material/button";
+import { MatSnackBarModule } from '@angular/material/snack-bar'
 
 // Diretivas
 import { RedDirective } from './derectives/red.directive';
@@ -46,7 +47,8 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatListModule,
     MatSidenavModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent] //Inicialização do componente
