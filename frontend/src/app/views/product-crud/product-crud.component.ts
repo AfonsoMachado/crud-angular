@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-product-crud',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductCrudComponent implements OnInit {
 
-  constructor() { }
+  // No momento da instancia do componente, o router é passado pelo angular, e pode ser usado dentro de navigateToProductCreate()
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  navigateToProductCreate(): void {
+    // Navegando para outra tela no clique do botão
+    this.router.navigate(['/products/create'])
   }
 
 }
