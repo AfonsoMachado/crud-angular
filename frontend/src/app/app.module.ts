@@ -19,6 +19,9 @@ import { MatListModule } from '@angular/material/list'
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatCardModule } from "@angular/material/card";
 
+// Diretivas
+import { RedDirective } from './derectives/red.directive';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +30,8 @@ import { MatCardModule } from "@angular/material/card";
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProductCrudComponent
+    ProductCrudComponent,
+    RedDirective
   ],
   imports: [
     BrowserModule,
