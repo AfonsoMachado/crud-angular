@@ -1,1 +1,6 @@
-<p>product-read works!</p>
+<ul>
+    <!-- Capturando a lista de produtos , acessando o atributo products do arquivo TS -->
+    <li *ngFor="let product of products">
+        {{ product.id }} => {{ product.name }}
+    </li>  
+</ul>
