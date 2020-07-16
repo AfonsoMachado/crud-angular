@@ -57,10 +57,19 @@ export class ProductService {
     return this.http.get<Product>(url)
   }
 
-
+  /**
+   * Atualiza o registro de um produto com base em um ID de produto recebido
+   * 
+   * @param product 
+   */
   update(product: Product): Observable<Product> {
     const url = `${this.baseUrl}/${product.id}`
     return this.http.put<Product>(url, product)
+  }
+
+  delete(id: string): Observable<Product> {
+    const url = `${this.baseUrl}/${id}`
+    return this.http.delete<Product>(url)
   }
 
 
