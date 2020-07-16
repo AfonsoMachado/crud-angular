@@ -35,4 +35,13 @@ export class ProductService {
     // Mandando uma requisição http post para a url, enviando uma nova instancia de produto
     return this.http.post<Product>(this.baseUrl, product)
   }
+
+  /**
+   * Faz a leitura de toda a lista de produtos
+   * 
+   * @return um `Observable` com a lista de produtos em array
+   */
+  read(): Observable<Product[]> {
+    return this.http.get<Product[]>(this.baseUrl)
+  }
 }
