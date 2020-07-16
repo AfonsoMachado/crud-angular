@@ -10,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProductReadComponent implements OnInit {
 
   products: Product[]
+  displayedColumns = ['id', 'name', 'price']
 
   // Injetando o ProductService para poder acessar o método que realiza a leitura dos produtos
   constructor(private productService: ProductService) { }
