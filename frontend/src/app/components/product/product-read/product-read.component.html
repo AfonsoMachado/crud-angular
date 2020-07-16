@@ -27,7 +27,8 @@
             <th mat-header-cell *matHeaderCellDef>Ações</th>
             <!-- currency usando moeda brasileira -->
             <td mat-cell *matCellDef="let row">
-                <a routerLink="" class="edit">
+                <!-- Montando a url de acordo com o id do produto -->
+                <a routerLink="/products/update/{{ row.id }}" class="edit">
                     <i class="material-icons">
                         edit
                     </i>

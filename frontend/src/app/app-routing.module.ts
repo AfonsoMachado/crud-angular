@@ -1,3 +1,4 @@
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -18,6 +19,11 @@ const routes: Routes = [
   {
     path: "products/create",
     component: ProductCreateComponent
+  },
+  {
+    // Com dois pontos trata-se de um parametro passado
+    path: "products/update/:id",
+    component: ProductUpdateComponent
   }
 ];
 
