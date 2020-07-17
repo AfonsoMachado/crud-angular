@@ -34,6 +34,11 @@
       "name": "Notebook Lenovo",
       "price": "2990.99",
       "id": 7
+    },
+    {
+      "name": "iPhone 11 Pro",
+      "price": "6999",
+      "id": 8
     }
   ]
 }
