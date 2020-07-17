@@ -23,6 +23,8 @@ export class ProductCreateComponent implements OnInit {
   }
 
   createProduct(): void {
+    console.log(this.product.price)
+
     // Subscribe notifica quando uma resposta chegar
     this.productService.create(this.product).subscribe(() => {
       this.productService.showMessage('Produto criado!')
