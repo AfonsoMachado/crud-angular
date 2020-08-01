@@ -39,6 +39,11 @@
       "name": "iPhone 11 Pro",
       "price": "6999",
       "id": 8
+    },
+    {
+      "name": "Xiaomi mi 9",
+      "price": "2000",
+      "id": 9
     }
   ]
 }
