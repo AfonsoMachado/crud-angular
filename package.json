@@ -2,7 +2,6 @@
   "name": "frontend",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
     "server": "node ./db/server.js",
     "dev": "concurrently \"ng serve\" \"node ./db/server.js\"",
     "start": "node ./db/server.js",
