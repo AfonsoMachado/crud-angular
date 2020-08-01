@@ -11,7 +11,8 @@ import { Observable, EMPTY } from 'rxjs';
 })
 export class ProductService {
 
-  baseUrl = 'http://localhost:3001/products'
+  // Selecionando url do backend ou local para execação local
+  baseUrl = window.location.href.includes('localhost') ? 'http://localhost:3001/products' : 'https://crud-angular-backend.herokuapp.com/products';
 
   // Injetando o snackbacr e o http client
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
