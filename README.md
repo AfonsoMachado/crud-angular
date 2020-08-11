@@ -43,7 +43,7 @@ $ npm install
 # Run backend and frontend
 $ npm run dev
 ```
-Backend executando em http://localhost:3001/products
-Frontend executando em http://localhost:4200
+ - Backend executando em http://localhost:3001/products
+ - Frontend executando em http://localhost:4200
 
 
