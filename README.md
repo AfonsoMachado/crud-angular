@@ -1,25 +1,49 @@
-# Frontend
+# Crud Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
 
-Aplicação simples desenvolvida utilizando do Angular e da bibloteca [json-server](https://github.com/typicode/json-server) como backend.
+Aplicação simples desenvolvida com a finalidade de treinar recursos em angular para um CRUD (Create, Read, Update, Delete), usando o padrão Observable
 
-Frontend da aplicação hospedado em: https://crud-angular-front.vercel.app/
+## :computer: Tecnologias
+<ul>
+ <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+  <li><a href="https://github.com/typicode/json-server">JSON Server</a></li>
+  <li><a href="https://github.com/angular/angular-cli">Angular CLI</a></li>
+  <li><a href="https://github.com/kimmobrunfeldt/concurrently">Concurrently</a></li>
+  <li><a href="https://github.com/ReactiveX/RxJS">RxJS</a></li>
+</ul>
 
-Backend da aplicação hospedado em: https://crud-angular-backend.herokuapp.com/products
+## Hospedagem
 
-## Scripts para executar localmente
+Este aplicativo foi hospedado na web para fins educativos e de testes, pode ser acessado online a partir de:
+  - Frontend: https://crud-angular-front.vercel.app/
+  - Backend: https://crud-angular-backend.herokuapp.com/products
 
-Instalação das dependências usando o comando
+## Instalando e executando localmente
 
-### `npm install`
+É necessário ter um ambiente NodeJS ou Yarn instalado em sua máquina
 
-Execução do frontend e backend localmente
+### Clonando o repositório:
 
-### `npm run dev`
+```
+$ git clone https://github.com/AfonsoMachado/crud-angular.git
+```
 
-A aplicação está pré configurada para rodar localmente da seguinte maneira:
+### Executando backend e frontend simultâneamente
 
-#### BACKEND -> localhost:3001/products
-#### FRONTEND -> localhost:4200
+Para facilitar a execução localmente, foi usada a library Concurrently para executar backend e frontend simultâneamente com um único comando
+
+```bash
+# Go to server folder
+$ cd crud-angular
+
+# Install Dependencies
+$ npm install
+
+# Run backend and frontend
+$ npm run dev
+```
+Backend executando em http://localhost:3001/products
+Frontend executando em http://localhost:4200
+
 
