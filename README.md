@@ -13,13 +13,13 @@ Aplicação simples desenvolvida com a finalidade de treinar recursos em angular
   <li><a href="https://github.com/ReactiveX/RxJS">RxJS</a></li>
 </ul>
 
-## Hospedagem
+## :cloud: Hospedagem
 
 Este aplicativo foi hospedado na web para fins educativos e de testes, pode ser acessado online a partir de:
   - Frontend: https://crud-angular-front.vercel.app/
   - Backend: https://crud-angular-backend.herokuapp.com/products
 
-## Instalando e executando localmente
+## :fire: Instalando e executando localmente
 
 É necessário ter um ambiente NodeJS ou Yarn instalado em sua máquina
 
@@ -45,6 +45,10 @@ $ npm run dev
 ```
  - Backend executando em http://localhost:3001/products
  - Frontend executando em http://localhost:4200
+ 
+ ## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
  
  ---
 
