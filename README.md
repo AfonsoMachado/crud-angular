@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
 
-Aplicação simples desenvolvida com a finalidade de treinar recursos em angular para um CRUD (Create, Read, Update, Delete), usando o padrão Observable
+Aplicação simples desenvolvida com a finalidade de treinar recursos em angular para um CRUD (Create, Read, Update, Delete), usando o padrão Observable. Desenvolvido durante a realização do curso [Angular 9 - Essencial](https://www.cod3r.com.br/courses/angular-9-essencial), promovido pela [Cod3r](https://www.cod3r.com.br/)
 
 ## :computer: Tecnologias
 <ul>
