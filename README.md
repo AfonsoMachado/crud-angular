@@ -45,5 +45,7 @@ $ npm run dev
 ```
  - Backend executando em http://localhost:3001/products
  - Frontend executando em http://localhost:4200
+ 
+ ---
 
-
+<p align="center">Feito com 💜 por <strong><a href="https://www.linkedin.com/in/AfonsoMachado/">Afonso Machado</a> 🥰 </strong> </p>
